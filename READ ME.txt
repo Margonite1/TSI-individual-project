@@ -1,0 +1,14 @@
+list of doubling and potential doubling
+loadchar.load() contains the fake
+char_gen.name() is one option for a stub
+char_gen.stats() could have the input call removed as a separate function which could be mocked
+char_stat_roll.stat_roller() could have the input call removed as a separate function which could be mocked
+dice.toll_die() could be made an option in an adapter for a stub or fake
+dice.roll_dice() could have roll_die() replaced by a stub or fake
+load_new.load_or_new() could have the remaining input call removed as a separate function which could be mocked
+roll_weapon.roll_damage()could have the input call removed as a separate function which could be mocked
+select_stat.pick_stat() could have the input call removed as a separate function which could be mocked
+select_stat.pick_number() could have the input call removed as a separate function which could be mocked
+select_stat.select_stats() could have abstracts created for pick_stat and pick_number so that these functions could be stubbed or faked or the functions could be mocked
+select_stat.all_stats() could have abstracts created for select_stats() so that this function could be stubbed or faked or the function could be mocked
+all references to is_testing.is_testing throughout the aforementioned could be made to always return False and be mocked to return True
